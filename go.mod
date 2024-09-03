@@ -9,5 +9,3 @@ require (
     github.com/wagslane/go-password-validator v0.3.0 // indirect
     gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/ayayaakasvin/randompass => ./pkg/password
