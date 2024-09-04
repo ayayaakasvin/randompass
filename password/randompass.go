@@ -1,7 +1,9 @@
 package randompass
 
 import (
+	"fmt"
 	"math/rand"
+
 	"github.com/wagslane/go-password-validator"
 )
 
@@ -165,4 +167,11 @@ func (Password *PasswordStruct) CreateUnShuffledPassword() {
 			}
 		}
 	}
+}
+
+func (Password *PasswordStruct) DisplayPassword() {
+	if Password == nil || Password.PasswordItself == nil {
+		fmt.Println("Password is empty")
+	}
+	fmt.Println(string(Password.PasswordItself))
 }
