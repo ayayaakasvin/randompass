@@ -1,4 +1,4 @@
-# Project Name
+# Golang Random Password Generator
 
 ## Description
 
@@ -14,19 +14,15 @@ This project is a Go application that generates secure passwords. It allows you 
 
 To install and use this project, follow these steps:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/yourproject.git
-    ```
-
-2. Navigate to the project directory:
+1. Navigate to the project directory:
     ```bash
     cd yourproject
-    ```
+    ``` 
 
-3. Install the necessary dependencies:
+
+3. Install the package:
     ```bash
-    go mod tidy
+    go get github.com/ayayaakasvin/randompass/password
     ```
 
 ## Usage
@@ -38,7 +34,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/yourproject/password"
+    "github.com/ayayaakasvin/randompass/password"
 )
 
 func main() {
